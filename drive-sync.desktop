@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Drive Sync
+Comment=Synchronize configured folders with rclone
+Exec=/usr/bin/env -- @EXECUTABLE@ --manual
+Icon=drive-sync
+Terminal=false
+Categories=Utility;FileTools;
+StartupNotify=false

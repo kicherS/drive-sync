@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "run_timeout": 21600,
+  "io_timeout": 300,
+  "jobs": [
+    {
+      "id": "documents",
+      "mode": "bisync",
+      "remote": "mydrive:Documents",
+      "local": "~/GoogleDrive/Documents",
+      "max_delete_percent": 25
+    },
+    {
+      "id": "reference",
+      "mode": "download",
+      "remote": "mydrive:Reference",
+      "local": "~/GoogleDrive/Reference",
+      "max_delete_files": 50
+    }
+  ]
+}

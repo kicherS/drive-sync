@@ -1,0 +1,21 @@
+# Local configuration and credentials
+config.json
+!examples/config.json
+rclone.conf
+.env
+.env.*
+*.pem
+*.key
+
+# Runtime state and build artifacts
+__pycache__/
+*.py[cod]
+*.log
+*.log.*
+*.lst*
+*.lck
+*.bak
+*.tar.gz
+*.zip
+/dist/
+/build/

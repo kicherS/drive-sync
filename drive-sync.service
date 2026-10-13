@@ -1,0 +1,12 @@
+[Unit]
+Description=Drive Sync folder synchronization
+Documentation=https://github.com/kicherS/drive-sync
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env -- @EXECUTABLE@
+UMask=0077
+TimeoutStartSec=infinity
+TimeoutStopSec=120
+KillSignal=SIGTERM
+KillMode=mixed

@@ -1,0 +1,7 @@
+# Release acceptance and review of repository changes.
+* @kicherS
+
+# Review ownership also covers CI and repository governance.
+/.github/CODEOWNERS @kicherS
+/.github/workflows/ @kicherS
+/.github/rulesets/ @kicherS

@@ -1,0 +1,12 @@
+# Optional rclone filters. Nothing in this file is enabled automatically.
+# Copy to your configuration directory and set a job's filter_file to use it.
+# Review each exclusion: excluded files are outside synchronization.
+- .DS_Store
+- Thumbs.db
+- desktop.ini
+- *.swp
+- *.swo
+- *~
+
+# Example only: exclude version-control metadata by uncommenting this line.
+# - .git/**
